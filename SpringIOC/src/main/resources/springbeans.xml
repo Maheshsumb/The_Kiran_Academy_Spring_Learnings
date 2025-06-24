@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+	<!--  <bean id="s" class="com.Entity.Student">
+		<property name="sID" value="102"></property>
+		<property name="sName" value="Mahi"></property>
+		<property name="sAge" value="21"></property>
+		<property name="sCity" value="NSK"></property>
+	</bean>-->
+	<bean id="ss" class="com.Entity.Student">
+		<constructor-arg index="0" value="034"></constructor-arg>
+		<constructor-arg index="1" value="Ram"></constructor-arg>
+		<constructor-arg index="2" value="20"></constructor-arg>
+		<constructor-arg index="3" value="Pune"></constructor-arg>
+
+
+	</bean>
+
+</beans>
